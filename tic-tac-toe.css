@@ -13,3 +13,17 @@
     gap: 2px;
     
 }
+
+button {
+    display: flex;
+    height: 32.3%;
+    width: 32.3%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 9em;
+    margin: 0;
+    padding: 0;
+    
+    
+}
