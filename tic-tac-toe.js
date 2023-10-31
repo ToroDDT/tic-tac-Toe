@@ -132,3 +132,16 @@ DOM.cellOne.addEventListener("click", () =>{
      playerChoices(9)
      changePlayerType()
  })
+
+ function changePlayerType (){
+    playerTypeToBeConverted = DOM.playerType.innerHTML
+   switch (playerTypeToBeConverted) {
+    case "x":
+        DOM.playerType.innerHTML = "o"
+        break;
+    case "o":
+        DOM.playerType.innerHTML = "x"
+        break;
+   }
+   return changePlayerType
+}
