@@ -145,3 +145,12 @@ DOM.cellOne.addEventListener("click", () =>{
    }
    return changePlayerType
 }
+
+function playerChoices (cell) {
+    let listPlayerChoices = []
+    let cellPosition = `${cell}`
+    listPlayerChoices.push(cellPosition)
+    return {listPlayerChoices}
+   
+}
+
